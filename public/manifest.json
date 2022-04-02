@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "mybigpoint Draw Calculator",
   "description": "",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "permissions": ["declarativeContent", "storage"],
   "icons": {
     "16": "icon-16.png",
