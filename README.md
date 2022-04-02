@@ -14,7 +14,7 @@
   </a>
 </p>
 
-> A browser extension that calculates the draw of a LK tennis tournament before the official deadline.
+> A browser extension for mybigpoint that calculates the draw of a LK tennis tournament before the official deadline.
 
 ## Prerequisites
 

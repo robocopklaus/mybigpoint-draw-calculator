@@ -1,7 +1,7 @@
 {
   "name": "mybigpoint-draw-calculator",
   "version": "0.0.0-development",
-  "description": "A browser extension that calculates the draw of a LK tennis tournament before the official deadline.",
+  "description": "A browser extension for mybigpoint that calculates the draw of a LK tennis tournament before the official deadline.",
   "homepage": "https://github.com/robocopklaus/mybigpoint-draw-calculator#readme",
   "repository": {
     "type": "git",
