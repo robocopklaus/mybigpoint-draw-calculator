@@ -1,4 +1,5 @@
 {
+  "dryRun": true,
   "branches": [
     "main"
   ],
@@ -13,12 +14,19 @@
       }
     ],
     [
+      "semantic-release-chrome",
+      {
+        "extensionId": "abhjljgkidihmaaibaocdoidbbgljnee",
+        "asset": "mybigpoint-draw-calculator-${nextRelease.gitTag}.zip"
+      }
+    ],
+    [
       "@semantic-release/github",
       {
         "assets": [
           {
-            "path": "dist",
-            "name": "mybigpoint-draw-calculator"
+            "path": "mybigpoint-draw-calculator-${nextRelease.gitTag}.zip",
+            "label": "mybigpoint-draw-calculator-${nextRelease.gitTag}.zip"
           }
         ]
       }

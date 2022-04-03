@@ -20,6 +20,8 @@ jobs:
         run: npm ci
       - name: Build
         run: npm run build
+      # - name: Package build
+      #   run: zip -r dist.zip dist
       - name: Release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
