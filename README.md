@@ -1,17 +1,7 @@
 <h1 align="center">mybigpoint Draw Calculator</h1>
 <p>
-  <img alt="Version" src="https://img.shields.io/badge/version-0.0.0-blue.svg?cacheSeconds=2592000" />
-  <img src="https://img.shields.io/badge/npm-%3E%3D8-blue.svg" />
-  <img src="https://img.shields.io/badge/node-%3E%3D16-blue.svg" />
-  <a href="https://github.com/robocopklaus/mybigpoint-draw-calculator#readme" target="_blank">
-    <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
-  </a>
-  <a href="https://github.com/robocopklaus/mybigpoint-draw-calculator/graphs/commit-activity" target="_blank">
-    <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" />
-  </a>
-  <a href="https://github.com/robocopklaus/mybigpoint-draw-calculator/blob/master/LICENSE" target="_blank">
-    <img alt="License: MIT" src="https://img.shields.io/github/license/robocopklaus/mybigpoint-draw-calculator" />
-  </a>
+  <img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/robocopklaus/mybigpoint-draw-calculator">
+  <img alt="GitHub Workflow Status" src="https://img.shields.io/github/workflow/status/robocopklaus/mybigpoint-draw-calculator/Release">
 </p>
 
 > A browser extension for mybigpoint that calculates the draw of a LK tennis tournament before the official deadline.
