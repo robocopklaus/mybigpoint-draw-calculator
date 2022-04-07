@@ -1,7 +1,8 @@
 {
   "manifest_version": 3,
   "name": "mybigpoint Draw Calculator",
-  "description": "A browser extension for mybigpoint that calculates the draw of a LK tennis tournament before the official deadline.",
+  "description": "__MSG_appDesc__",
+  "default_locale": "de",
   "version": "0.0.0",
   "permissions": ["declarativeContent", "storage"],
   "icons": {
