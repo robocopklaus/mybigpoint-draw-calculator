@@ -10,7 +10,7 @@ interface MatchOverviewProps {
 const MatchOverview = ({ matches, player }: MatchOverviewProps): JSX.Element => {
   return (
     <table className="w-full text-sm text-left text-neutral-500 dark:text-neutral-400">
-      <thead className="text-xs uppercase text-neutral-700 bg-neutral-50 dark:bg-neutral-700 dark:text-neutral-400">
+      <thead className="sticky top-0 text-xs uppercase text-neutral-700 bg-neutral-50 dark:bg-neutral-700 dark:text-neutral-400">
         <tr>
           <th scope="col" className="px-6 py-3">
             Name
