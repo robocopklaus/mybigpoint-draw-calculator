@@ -32,7 +32,7 @@ const MatchOverview = ({ matches, player }: MatchOverviewProps): JSX.Element => 
             key={index}
             className={`${
               match.playerOne.name === player?.name || match.playerTwo.name === player?.name
-                ? 'bg-green-400 dark:bg-green-900 hover:bg-green-300 dark:hover:bg-green-800'
+                ? 'bg-primary-300 dark:bg-primary-800 hover:bg-primary-400 dark:hover:bg-primary-900'
                 : 'bg-white dark:bg-neutral-800 hover:bg-neutral-50 dark:hover:bg-neutral-600'
             } border-b dark:border-neutral-700 `}
           >
