@@ -50,7 +50,7 @@ const Popup = (): JSX.Element | null => {
   }
 
   const NotEnoughPlayers = (): JSX.Element => (
-    <span className="font-bold py-4 px-2">Nicht genügend Spieler angemeldet</span>
+    <span className="font-bold py-4 px-2">{browser.i18n.getMessage('notEnoughPlayers')}</span>
   )
 
   const isAddMeEnabled = (): boolean => players.findIndex(player => player.name === currentPlayer?.name) === -1
@@ -68,7 +68,7 @@ const Popup = (): JSX.Element | null => {
               className="mt-4 py-2 w-full font-semibold text-sm border-neutral-800 bg-neutral-900 rounded text-neutral-100 dark:border-neutral-100 dark:bg-neutral-50 dark:text-neutral-900"
               onClick={handleClick}
             >
-              Mich zum Feld hinzufügen
+              {browser.i18n.getMessage('addMeToTournament')}
             </button>
           ) : null}
         </>

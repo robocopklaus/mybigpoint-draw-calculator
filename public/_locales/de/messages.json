@@ -1,5 +1,23 @@
 {
   "appDesc": {
     "message": "Berechnet die Auslosung eines LK-Turniers vor Meldeschluss, so dass Du vorab schon sehen kannst, gegen wen Du spielen wirst."
+  },
+  "notEnoughPlayers": {
+    "message": "Nicht genügend Spieler angemeldet"
+  },
+  "addMeToTournament": {
+    "message": "Mich zum Feld hinzufügen"
+  },
+  "disclaimer": {
+    "message": "Damit Du vor einer LK-Turnieranmeldung sehen kannst, gegen wen Du bei aktuellem Stand spielen würdest, benötigt das Tool Deinen Namen, unter dem Du bei mybigpoint gelistet bist, und Deine aktuelle LK."
+  },
+  "yourName": {
+    "message": "Dein Name"
+  },
+  "yourRating": {
+    "message": "Deine LK"
+  },
+  "save": {
+    "message": "Speichern"
   }
 }

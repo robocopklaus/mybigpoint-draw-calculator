@@ -21,13 +21,10 @@ const Options = (): JSX.Element => {
   return (
     <div className="w-full">
       <form className="px-8 pt-2 pb-8 mb-4">
-        <span className="block mb-4 text-neutral-400">
-          Damit Du vor einer LK-Turnieranmeldung sehen kannst, gegen wen Du bei aktuellem Stand spielen würdest,
-          benötigt das Tool Deinen Namen, unter dem Du bei mybigpoint gelistet bist, und Deine aktuelle LK.
-        </span>
+        <span className="block mb-4 text-neutral-400">{browser.i18n.getMessage('disclaimer')}</span>
         <div className="mb-4">
           <label className="block text-sm font-semibold mb-2" htmlFor="name">
-            Dein Name
+            {browser.i18n.getMessage('yourName')}
           </label>
           <input
             className="shadow appearance-none border rounded w-full py-2 px-3 leading-tight focus:outline-none focus:shadow-outline"
@@ -45,7 +42,7 @@ const Options = (): JSX.Element => {
 
         <div className="mb-4">
           <label className="block text-sm font-semibold mb-2" htmlFor="rating">
-            Deine LK
+            {browser.i18n.getMessage('yourRating')}
           </label>
           <input
             className="shadow appearance-none border rounded w-full py-2 px-3 leading-tight focus:outline-none focus:shadow-outline"
@@ -72,7 +69,7 @@ const Options = (): JSX.Element => {
             await browser.storage.sync.set({ player: { name, rating } })
           }}
         >
-          Speichern
+          {browser.i18n.getMessage('save')}
         </button>
       </form>
     </div>
