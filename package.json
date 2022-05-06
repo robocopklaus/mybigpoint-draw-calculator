@@ -55,7 +55,7 @@
     "eslint-plugin-react-hooks": "^4.5.0",
     "eslint-plugin-simple-import-sort": "^7.0.0",
     "husky": "^7.0.0",
-    "postcss": "^8.4.12",
+    "postcss": "^8.4.13",
     "postcss-loader": "^6.2.1",
     "prettier": "^2.6.2",
     "rimraf": "^3.0.2",
